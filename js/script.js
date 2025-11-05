@@ -113,7 +113,7 @@ function openModal(item) {
   document.body.appendChild(overlay);
 
   // Close modal
-  closeBtn.addEventListener('click', () => overlay.remove());
+  closeBtn.addEventListener('click', () => overlay.remove()); 
   overlay.addEventListener('click', e => {
     if (e.target === overlay) overlay.remove();
   });
