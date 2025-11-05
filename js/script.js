@@ -118,6 +118,6 @@ function openModal(item) {
     if (e.target === overlay) overlay.remove();
   });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') overlay.remove();
+    if (e.key === 'Escape') overlay.remove(); 
   });
 }
